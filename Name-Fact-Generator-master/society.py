@@ -3,7 +3,7 @@ import random
 import streamlit as st
 
 while True :
-    name = st.text_input("Enter Your Name",  )
+    name = st.text_input("Enter Your Name", "Name" )
     gender_input = st.text_input("Enter Your Gender (F for female, M for male)",  )
     if gender_input == "f" or gender_input == "F": heshe = "She"; hisher = "her"; guygirl = "girl"; himher = "her"; girlguy = "guy";break
     elif gender_input == "m" or gender_input == "M" : heshe = "He"; hisher = "His"; guygirl = "guy"; himher = "him"; girlguy = "girl";break
