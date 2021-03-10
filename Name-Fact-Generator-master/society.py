@@ -3,14 +3,14 @@ import random
 import streamlit as st
 
 while True :
-    name = st.text_input("Enter Your Name", "Name", key="name" )
-    gender_input= st.selectbox(
+     name = st.text_input("Enter Your Name", "Name", key="name" )
+     gender_input= st.selectbox(
      'Select Gender',
      ('M', 'F'))
 
-    if gender_input == "f" or gender_input == "F": heshe = "She"; hisher = "her"; guygirl = "girl"; himher = "her"; girlguy = "guy";break
-    elif gender_input == "m" or gender_input == "M" : heshe = "He"; hisher = "His"; guygirl = "guy"; himher = "him"; girlguy = "girl";break
-    else : st.text("Incorrect Gender Entered.")
+     if gender_input == "f" or gender_input == "F": heshe = "She"; hisher = "her"; guygirl = "girl"; himher = "her"; girlguy = "guy";break
+     elif gender_input == "m" or gender_input == "M" : heshe = "He"; hisher = "His"; guygirl = "guy"; himher = "him"; girlguy = "girl";break
+     else : st.text("Incorrect Gender Entered.")
 
 #Lies
 lines = [ 
