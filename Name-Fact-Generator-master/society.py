@@ -154,10 +154,12 @@ heshe+"'ll leave you coming back for more; wanted\nby many.",
 
 #Setting Up Image
 image = Image.new('RGB',(1000,1000),(255,255,255))
-lines_font = ImageFont.truetype('bahnschrift.ttf', size=38)
-name_font = ImageFont.truetype('theboldfont.ttf', size=72)
-watermark_font = ImageFont.truetype('arial.ttf',size=24)
-
+#lines_font = ImageFont.truetype('bahnschrift.ttf', size=38)
+#name_font = ImageFont.truetype('theboldfont.ttf', size=72)
+#watermark_font = ImageFont.truetype('arial.ttf',size=24)
+lines_font = ImageFont.load_default('bahnschrift.ttf', size=38)
+name_font = ImageFont.load_default('theboldfont.ttf', size=72)
+watermark_font = ImageFont.load_default('arial.ttf',size=24)
 history = []
 #Printing on image
 y0, dy = 220, 40
