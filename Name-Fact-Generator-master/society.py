@@ -177,7 +177,7 @@ for i in range(6):
 
 ImageDraw.Draw(image).rectangle([50,150,1000-50,y0+70],fill=None,outline=(0,0,0),width=5)
 ImageDraw.Draw(image).text((70,180),str(name),fill='rgb(0,0,0)',font=name_font)
-ImageDraw.Draw(image).text((1000-400,1000-30),'Python Script Made By @Harshit',fill='rgb(0,0,0)',font=watermark_font)
+ImageDraw.Draw(image).text((1000-400,1000-30),'Python Script Made By @Rohan',fill='rgb(0,0,0)',font=watermark_font)
 
 #Showing Output
 image.save(str(name)+'.png')
